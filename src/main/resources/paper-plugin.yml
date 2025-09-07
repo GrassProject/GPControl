@@ -1,0 +1,15 @@
+name: GPControl
+version: ${version}
+author: GrassProject
+
+api-version: "1.21"
+
+main: io.github.grassproject.control.GPControlPlugin
+loader: io.github.grassproject.control.GPControlLoader
+
+dependencies:
+  server:
+    GPFramework:
+      load: BEFORE
+      required: true
+      join-classpath: true

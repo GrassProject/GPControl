@@ -1,0 +1,7 @@
+modules:
+  # true -> remove message
+  join-quit-message: true
+  # true -> protect
+  farm-protect: true
+  # true - Frost Walker prevention
+  frost-walker: true
